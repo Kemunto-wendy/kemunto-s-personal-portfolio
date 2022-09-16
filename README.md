@@ -1,7 +1,9 @@
-# Getting Started with Create React App
+# PERSONAL PORTFOLIO FOR JOY KEMUNTO
+This is build using react applications that will apply different custom hooks e. g the useState Hook.
+My design will be from the CSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To get my code you can git clone it from my github account
 ## Available Scripts
 
 In the project directory, you can run:
