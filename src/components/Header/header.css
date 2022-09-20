@@ -1,0 +1,48 @@
+.container span{
+    color: rgb(35, 109, 1);
+    font-weight: bolder;
+    font-style: italic;
+}
+.container h5{
+    color: rgb(73, 180, 230);
+}
+.container h1{
+    color: #fff;
+}
+.container {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #0d5f0d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+
+}
+.btn-primary {
+    background-color: rgb(73, 180, 230);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn-primary:hover {
+        transform: scale(1.2);
+        color: black;
+}
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
