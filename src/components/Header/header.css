@@ -8,13 +8,16 @@
 }
 .container h1{
     color: #fff;
+    margin-top: 4rem;
 }
 .container {
     text-align: center;
     font-size: 2rem;
     margin-top: 30px;
 }
-
+.button {
+    margin-top: 4rem;
+}
 .btn {
     background-color: #0d5f0d;
     color: white;
@@ -45,4 +48,28 @@
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
+}
+
+
+.joy {
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    margin-top: 4rem;
+    left: 50%;
+    transform: translatex( -50%);
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem i.5rem 1.5rem 1.5rem;
+}
+
+.logo {
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logo span {
+color: #0d5f0d;
 }

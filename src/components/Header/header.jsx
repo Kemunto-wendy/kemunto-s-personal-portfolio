@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css"
 import Button from "./button";
+import Joy from "../../assets/wendy.jpg"
 
 const Header = ( ) => {
     return(
@@ -9,7 +10,7 @@ const Header = ( ) => {
             <h5>Hey <span>There!!!</span></h5>
             <h1>I'm JOY KEMUNTO</h1>
             <h5>A Junior <span>Front  End  Web</span> developer</h5>
-                <Button />
+                    <Button />
             </div>
      </header>
     )
