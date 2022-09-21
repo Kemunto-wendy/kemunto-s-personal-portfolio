@@ -17,6 +17,9 @@
 }
 .button {
     margin-top: 4rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
 }
 .btn {
     background-color: #0d5f0d;
@@ -49,8 +52,6 @@
     color: var(--color-bg);
     border-color: transparent;
 }
-
-
 .joy {
     width: 22rem;
     height: 30rem;
@@ -73,3 +74,14 @@
 .logo span {
 color: #0d5f0d;
 }
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 50rem;
+}
+

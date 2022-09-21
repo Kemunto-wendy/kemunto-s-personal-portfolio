@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css"
 import Button from "./button";
 import Joy from "../../assets/wendy.jpg"
+import Social from "./social";
 
 const Header = ( ) => {
     return(
@@ -11,6 +12,7 @@ const Header = ( ) => {
             <h1>I'm JOY KEMUNTO</h1>
             <h5>A Junior <span>Front  End  Web</span> developer</h5>
                     <Button />
+                    <Social />
             </div>
      </header>
     )
