@@ -83,5 +83,30 @@ color: #0d5f0d;
     position: absolute;
     left: 0;
     bottom: 50rem;
+    height: 6rem;
+}
+a {
+    color:  #15d4c4;
+    transition: transform .4s;
 }
 
+a:hover {
+    color: #0d5f0d;
+}
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .social {
+        display: none;
+    }
+}

@@ -3,9 +3,9 @@ import "./skill.css"
 
 const Skill = ( ) => {
     return(
-        <div>
-            APP
-        </div>
+        <section id="Skill">
+            Skill
+       </section>
     )
 }
 
