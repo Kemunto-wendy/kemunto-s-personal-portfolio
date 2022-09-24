@@ -1,9 +1,10 @@
 import React from "react";
 import "./header.css"
 import Button from "./button";
-import Joy from "../../assets/wendy.jpg"
 import Social from "./social";
 import Bar from "../Bar/bar";
+import School from "./School/school";
+
 const Header = ( ) => {
     return(
      <header>
@@ -14,6 +15,7 @@ const Header = ( ) => {
             <h5>A Junior <span>Front  End  Web</span> developer</h5>
                     <Button />
                     <Social />
+                    <School />
             </div>
      </header>
     )

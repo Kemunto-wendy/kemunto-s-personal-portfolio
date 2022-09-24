@@ -31,7 +31,13 @@ html {
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-image: url("assets/guitar.jpg");
-    background-size: cover;
+    background-image: url("assets/black.jpg");
+    background-position: center;
+
+}
+
+section {
+    margin-top: 30rem;
+    height: 100vh;
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import {GrLinkedin} from "react-icons/gr"
 import {FaGithubSquare} from "react-icons/fa"
 import {GrInstagram} from "react-icons/gr"
+import {FcDribbble} from "react-icons/fc"
 
 const Social = ( ) => {
     return (
@@ -9,6 +10,7 @@ const Social = ( ) => {
             <a href="https://linkedin.com" target= "_blank"><GrLinkedin/></a>
             <a href="https://github.com" target= "_blank"><FaGithubSquare/></a>
             <a href="https://instagram.com" target= "_blank"><GrInstagram/></a>
+            <a href="https://instagram.com" target= "_blank"><FcDribbble/></a>
             </div>
     )
 }
