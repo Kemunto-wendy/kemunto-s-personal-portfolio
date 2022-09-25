@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css"
-import Wendy from "../../assets/wendy.jpg"
-import {BsFillAwardFill} from "react-icons/bs"
+import Wendy from "../../assets/paps.jpg"
 
 const About = ( ) => {
     return(
@@ -17,7 +16,8 @@ const About = ( ) => {
             <div className="content">
                     <div className="card">
                     </div>
-                    <p>Web developers are experts at bringing a vision to life.
+                    <p>Recent bachelor's degree with a background in web design and development.
+                    Moringa school web developer certification. Web developers are experts at bringing a vision to life.
                     They take ideas and transform them into fully functional websites
                      using various development tools and programming languages.
                 The development process is generally split between front-end and back-end tasks.
