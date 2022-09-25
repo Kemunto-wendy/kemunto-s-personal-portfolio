@@ -11,3 +11,17 @@
     margin-bottom: 60px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.mh-professional-skills {
+    padding-left: 20%;
+    color: white;
+}
+
+.mh-professional-skills h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}

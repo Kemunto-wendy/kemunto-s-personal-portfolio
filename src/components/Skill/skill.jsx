@@ -88,7 +88,7 @@ const Skill = ( ) => {
 
                             <div className="col-sm-12 col-md-6">
                                 <div className="mh-professional-skills">
-                                        <h3>PROFESSIONAL Skills</h3>
+                                        <h3>PROFESSIONAL SKILLS</h3>
                                         <ul className="mh-professional-progress">
                                                 <li>
                                                         <div className="mh-progress mh-progress-circle" data-progress="96%"></div>
