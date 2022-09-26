@@ -17,17 +17,15 @@ const About = ( ) => {
                     <div className="card">
                     </div>
                     <p>Recent bachelor's degree with a background in web design and development.
-                    Moringa school web developer certification. Web developers are experts at bringing a vision to life.
-                    They take ideas and transform them into fully functional websites
-                     using various development tools and programming languages.
-                The development process is generally split between front-end and back-end tasks.
-                Front-end developers focus on user interfaces, graphics, fonts, images, styles, layouts,
-                content structure, and anything else a user can view or interact with. Back-end developers
-                are more concerned with functionality. They focus on data handling, storage, and optimization within database systems.
-                  If you’ve picked up some coding skills and decided to focus on front-end development,
-                   then the next step is to land a job you love. A strong portfolio and resume will help you
-                    stand out from a pool of applicants, but you need a solid cover letter to seal the deal.
-                    Here are our best tips for nailing the letter and getting hired as a front-end developer.</p>
+                    Moringa school web developer certification.Motivated, responsible and hardworking
+                    ready to advance in the field of Information Technology majoring in Full Stack
+                    Development and Networking. I have a strong drive to see things to competition and
+                    learn more in my technical Skill since the world of technology keeps on changing every time.
+                    I have excellent Computer Skills in all the Computer packages. A creative copywriter with
+                    knowledge of SEO best practices and keyword optimization. Well organized research
+                    skills to craft unique and valuable content for a wide variety of target audiences.
+                    I am looking forward to develop my next project with the wonderful team.
+                    I believe the knowledge gained will help me achieve great in my software engineering path.</p>
                     </div>
             </div>
             </section>

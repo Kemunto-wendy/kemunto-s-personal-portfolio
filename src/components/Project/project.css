@@ -1,0 +1,23 @@
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+
+}
+
+.item {
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.item:hover {
+    border-color: rgb(8, 139, 63);
+    background: transparent;
+}
+
+.image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}

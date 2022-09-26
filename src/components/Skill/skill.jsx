@@ -9,7 +9,7 @@ const Skill = ( ) => {
                         <div className="colum">
                                 <div className="inner">
                                         <div className="prof">
-                                                <h3>Technical Skills</h3>
+                                                <h3>TECHNICAL SKILLS</h3>
                                         <div className="new">
                                             <div className="cand">
                                                 <div className="parcial">
