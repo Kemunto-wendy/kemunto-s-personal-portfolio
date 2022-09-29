@@ -1,20 +1,29 @@
+body {
+    background-color: rgb(15, 2, 2);
+}
 
-.container span{
+.cont {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 250px;
+    background-image: url("../../assets/yow.jpg");
+    background-position: center;
+        background-size: cover;
+}
+
+.cont span{
     color: rgb(35, 109, 1);
     font-weight: bolder;
     font-style: italic;
 }
-.container h5{
+.cont h5{
+    font-size: 2rem;
     color: rgb(73, 180, 230);
 }
-.container h1{
+.cont h1{
     color: #fff;
     margin-top: 5rem;
-}
-.container {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 250px;
+    font-size: 7rem;
 }
 
 .button {
@@ -49,10 +58,12 @@
         transform: scale(1.2);
         color: black;
 }
+
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
+    background: #0d5f0d;
+    color: black;
     border-color: transparent;
+    transform: scale(1.2);
 }
 .joy {
     width: 22rem;
@@ -97,6 +108,7 @@ a:hover {
 }
 
 
+
 @media screen and (max-width: 1024px) {
     header {
         height: 68vh;
@@ -112,3 +124,5 @@ a:hover {
         display: none;
     }
 }
+
+

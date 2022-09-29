@@ -4,7 +4,7 @@ import "./school.css"
 const School = ( ) => {
     return (
         <div className="school">
-            <h1>Institution</h1>
+            <h1>WEB <span> ! </span> DEVELOPER</h1>
         </div>
     )
 }

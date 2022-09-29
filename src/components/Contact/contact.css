@@ -1,0 +1,93 @@
+
+#contact h5 {
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+#contact h2 {
+    color: #15d4c4;
+    font-size: 7rem;
+    margin-bottom: 2%;
+    font-style: italic;
+    text-align: center;
+}
+
+#contact span {
+    color: #0d5f0d;
+    font-size: 4rem;
+
+}
+.phone {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 50% 58%;
+    gap: 12%;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.option {
+    background: rgb(73, 180, 230);
+    padding: 2.2rem;
+    border-radius: 2.2rem;
+    text-align: center;
+    border: ipx solid transparent;
+    transition: transform .4s;
+}
+
+.option:hover {
+    transform: scale(1.2);
+}
+.iconic {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.juy {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.juy:hover {
+    color: #063806;
+}
+.option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+@media  screen and (max-width: 1024px) {
+    .phone {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .phone {
+        width: var(--container-width-sm);
+    }
+}
+input, textarea {
+    width: 100%;
+    padding: 3.5rem;
+    border-radius: 1.5rem;
+    background: white;
+    resize: none;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}

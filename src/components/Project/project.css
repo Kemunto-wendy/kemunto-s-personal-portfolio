@@ -1,20 +1,21 @@
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
-
+    text-align: center;
 }
 
 .item {
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition);
+    transition: transform .4s;
 }
 
 .item:hover {
     border-color: rgb(8, 139, 63);
     background: transparent;
+    transform: scale(1.2);
 }
 
 .image {
