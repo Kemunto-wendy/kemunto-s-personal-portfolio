@@ -26,6 +26,7 @@ const About = ( ) => {
                     skills to craft unique and valuable content for a wide variety of target audiences.
                     I am looking forward to develop my next project with the wonderful team.
                     I believe the knowledge gained will help me achieve great in my software engineering path.</p>
+                    <button type="button">Let's chat</button>
                     </div>
             </div>
             </section>

@@ -1,41 +1,53 @@
 import React from "react";
 import "./skill.css"
+import {RiComputerFill} from "react-icons/ri"
+import {RiFirstAidKitFill} from "react-icons/ri"
+import {HiAnnotation} from "react-icons/hi"
 
 const Skill = ( ) => {
     return(
+      <div className="service">
+      <div className="title">
+          <h1>Skills</h1>
+      </div>
 
-        <section id="services">
-        <div className="services container">
-          <div className="service-top">
-            <h1 class="section-title">Serv<span>i</span>ces</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
-              magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
-              voluptatum explicabo!</p>
+      <div className="box">
+      <div className="card">
+      <a href="#"><RiComputerFill/></a>
+          <h5>Software Developer</h5>
+          <div className="pra">
+          <p>A health enthusiast who does research on
+              health-related issues most especially
+              diabetes which has become a very rampant disease to our today’s world affecting the young. </p>
           </div>
-          <div className="service-bottom">
-            <div className="service-item">
-              <div className="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-              <h2>Web Design</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-                architecto placeat beatae tenetur officia quod</p>
-            </div>
-            <div className="service-item">
-              <div className="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-              <h2>Web Design</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-                architecto placeat beatae tenetur officia quod</p>
-            </div>
-            <div className="service-item">
-              <div className="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-              <h2>Web Design</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-                architecto placeat beatae tenetur officia quod</p>
-            </div>
+          </div>
+</div>
 
+<div className="box">
+<div className="card">
+<a href="#"><HiAnnotation/></a>
+    <h5>Data Annotator</h5>
+    <div className="pra">
+          <p>A health enthusiast who does research on
+              health-related issues most especially
+              diabetes which has become a very rampant disease to our today’s world affecting the young. </p>
           </div>
-        </div>
-      </section>
-    )
-};
+</div>
+</div>
+
+<div className="box">
+<div className="card">
+<a href="#"><RiFirstAidKitFill/></a>
+    <h5>Red Cross</h5>
+    <div className="pra">
+          <p>A health enthusiast who does research on
+              health-related issues most especially
+              diabetes which has become a very rampant disease to our today’s world affecting the young. </p>
+          </div>
+</div>
+</div>
+</div>
+
+)}
 
 export default Skill

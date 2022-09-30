@@ -17,7 +17,6 @@
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(5deg);
-    transition: var(--transition);
     margin-top: 300px;
 }
 
@@ -25,12 +24,38 @@
     transform: rotate(0);
 }
 
+#me {
+    background-image: url(../../assets/black.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 #me h5{
     font-size: 5rem;
     text-align: center;
     font-style: italic;
-    color: rgb(13, 236, 218);
+    color: rgb(73, 180, 230);
+    font-weight: bolder;
+}
+button {
+    background-color: #0d5f0d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 23px 50px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-family: sans-serif;
+
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #0d5f0d;
+    cursor: pointer;
 }
 
 
@@ -40,7 +65,7 @@
  p {
     color: #fff;
     font-size: 2.4rem;
-    margin-top: 30rem;
+    margin-top: 10rem;
     margin-right: 5rem;
     text-align: center;
  }

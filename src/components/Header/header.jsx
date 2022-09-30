@@ -3,7 +3,6 @@ import "./header.css"
 import Button from "./button";
 import Social from "./social";
 import Bar from "../Bar/bar";
-import School from "./School/school";
 import Nav from "../Nav/nav";
 
 const Header = ( ) => {
@@ -17,7 +16,6 @@ const Header = ( ) => {
                     <Button />
                     <Social />
                     <Bar />
-                    <School />
             </div>
      </header>
     )

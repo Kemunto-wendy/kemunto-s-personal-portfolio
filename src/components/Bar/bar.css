@@ -10,7 +10,7 @@ nav {
     bottom: 2rem;
     border-radius: 3rem;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 nav a {
