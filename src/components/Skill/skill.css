@@ -1,6 +1,7 @@
 .service h1 {
 	font-size: 5rem;
 	text-align: center;
+    color: black;
 }
 
 .service {
@@ -17,10 +18,10 @@
 }
 
 .box {
-    grid-template-columns: (3, 1fr);
     justify-content: center;
     align-items: center;
     min-height: 400px;
+
 }
 
 .card {
@@ -73,3 +74,24 @@ h5 {
     margin: 25px 0px;
 
 }
+
+
+
+
+@media screen and (max-width: 1024px) {
+    div {
+        height: 68vh;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .service {
+        display: none;
+    }
+}
+
+

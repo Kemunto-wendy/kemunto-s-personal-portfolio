@@ -3,6 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
     text-align: center;
+
 }
 
 .item {
@@ -21,4 +22,10 @@
 .image {
     border-radius: 1.5rem;
     overflow: hidden;
+}
+
+#Project h5 {
+    font-size: 5rem;
+	text-align: center;
+    color: black;
 }

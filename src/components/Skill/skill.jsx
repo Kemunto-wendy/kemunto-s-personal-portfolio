@@ -10,7 +10,6 @@ const Skill = ( ) => {
       <div className="title">
           <h1>Skills</h1>
       </div>
-
       <div className="box">
       <div className="card">
       <a href="#"><RiComputerFill/></a>

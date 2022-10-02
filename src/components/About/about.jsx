@@ -14,8 +14,6 @@ const About = ( ) => {
                     </div>
 
             <div className="content">
-                    <div className="card">
-                    </div>
                     <p>Recent bachelor's degree with a background in web design and development.
                     Moringa school web developer certification.Motivated, responsible and hardworking
                     ready to advance in the field of Information Technology majoring in Full Stack
