@@ -96,3 +96,18 @@ input, textarea {
     font-size: 1.4rem;
     font-weight: bolder;
 }
+
+@media screen and (max-width: 1024px) {
+    .phone {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .phone {
+            width:  var(--container-width-sm);
+    }
+}
+
+

@@ -6,11 +6,11 @@ const Nav = ( ) => {
         <div className="soc">
             <h1>SOFTWARE <span> DEVELOPER</span></h1>
             <ul>
-            <li> <a href="#">HOME</a></li>
-            <li> <a href="#About">ABOUT</a></li>
-            <li> <a href="#">SKILLS</a></li>
-            <li>  <a href="#">PROJECT</a></li>
-            <li>  <a href="#">CONTACT</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#project">PROJECT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
             </div>
     )

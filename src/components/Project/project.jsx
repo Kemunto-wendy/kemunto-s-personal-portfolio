@@ -18,27 +18,24 @@ const Project = ( ) => {
                             <div className="images">
                                     <img src={PORT} alt="sample project" />
                             </div>
-                                <h3>This is a portfolio title</h3>
                                         <a href="https://github.com" className="btn" >Github</a>
-                                        <a href="https://dribble.com/Alien_pixels" className="btn btn-primary">Live Demo</a>
+                                         {/*<a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a> */}
                                 </article>
 
                                 <article className="item">
                                 <div className="images">
                                         <img src={ADMIN} alt="sample project" />
                                 </div>
-                                    <h3>This is a portfolio title</h3>
                                             <a href="https://github.com" className="btn" >Github</a>
-                                            <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a>
+                                             {/*<a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a> */}
                                     </article>
 
                                     <article className="item">
                                     <div className="images">
                                             <img src={ABOUT} alt="sample project" />
                                     </div>
-                                        <h3>This is a portfolio title</h3>
                                                 <a href="https://github.com" className="btn" >Github</a>
-                                                <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a>
+                                                 {/*<a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a> */}
                                         </article>
 
 
@@ -46,9 +43,9 @@ const Project = ( ) => {
                                         <div className="images">
                                                 <img src={COW} alt="sample project" />
                                         </div>
-                                            <h3>This is a portfolio title</h3>
+
                                                     <a href="https://github.com" className="btn" >Github</a>
-                                                    <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a>
+                                                    {/*<a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a> */}
                                             </article>
 
 
@@ -56,18 +53,18 @@ const Project = ( ) => {
                                             <div className="images">
                                                     <img src={LOGIN} alt="sample project" />
                                             </div>
-                                                <h3>This is a portfolio title</h3>
+
                                                         <a href="https://github.com" className="btn" >Github</a>
-                                                        <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a>
+                                                         {/*<a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a> */}
                                                 </article>
 
                                                 <article className="item">
                                                 <div className="images">
                                                         <img src={PIXEL} alt="sample project" />
                                                 </div>
-                                                    <h3>This is a portfolio title</h3>
+
                                                             <a href="https://github.com" className="btn" >Github</a>
-                                                            <a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a>
+                                                        {/*<a href="https://dribble.com/Alien_pixels" className="btn btn-primary" >Live Demo</a> */}
                                                     </article>
 
 

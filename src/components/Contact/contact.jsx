@@ -4,8 +4,19 @@ import {MdMarkEmailRead} from "react-icons/md";
 import {FcDribbble} from "react-icons/fc"
 import {SiWhatsapp} from "react-icons/si"
 import {TbSend} from "react-icons/tb"
+import { useRef } from 'react';
+import emailjs from "emailjs-com"
 
 const Contact = ( ) => {
+   const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_bkuctkq', 'template_ca4veie', form.current, 'bMys3BixuIkjLHIEFn')
+     e.target.reset( )
+  };
+
     return(
         <section id="contact">
             <h2>Contact <span>Me </span></h2>
@@ -33,7 +44,7 @@ const Contact = ( ) => {
                             <a href="https://web.whatsapp.com/send?phone=+254795543445"><TbSend className="juy" /></a>
                         </article>
                 </div>
-                <form action="">
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder="Enter Your Name" required />
                     <input type="email" name="email" placeholder="Enter Email........." required />
                     <textarea name="message"  rows="7" placeholder="Type in message...." required ></textarea>

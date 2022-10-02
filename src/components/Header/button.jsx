@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css"
-import CV from "../../assets/CV PDF.pdf"
+import CV from "../../assets/CV.pdf"
 
 const Button = ( ) => {
     return(
